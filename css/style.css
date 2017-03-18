@@ -1,0 +1,129 @@
+p {
+  text-align: justify;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+ul, li {
+  font-size: 16px;
+}
+
+body {
+  margin: 0 auto;
+  width: 1150px;
+  padding-top: 10px;
+}
+
+
+/* inicio header */
+.header-portfolio {
+  height: 250px;
+  padding-bottom: 30px;
+
+}
+
+.perfil {
+  height: 100%;
+  text-align: center !important;
+  float: left;
+  padding-right: 50px;
+}
+
+.perfil h2, h3 {
+  margin: auto;
+  padding-bottom: 3px;
+}
+
+.perfil img {
+  padding-bottom: 15px;
+}
+
+.text-about {
+  padding-bottom: 20px;
+}
+
+.text-infor {
+  float: right;
+  text-align: right;
+}
+
+.text-infor h4, h5 {
+  margin: auto;
+  padding-bottom: 3px;
+}
+
+/* fim header */
+
+/* inicio first section */
+
+.first-container {
+  height: 550px;
+  padding-bottom: 30px;
+}
+
+.experiences-section, .education-section {
+  width: 45%;
+}
+
+.experiences-section {
+  float: left;
+}
+
+.experiences-section h3 {
+  width: 70%;
+  float: right;
+
+}
+
+.container-mini-general {
+  height: 170px;
+}
+
+#date-first {
+  float: left;
+  width: auto;
+}
+
+#date-second {
+  float: right;
+  width: auto;
+}
+
+.education-section {
+  float: right;
+}
+
+.education-section h3 {
+  width: 70%;
+  float: right;
+}
+
+#img-general {
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 70px;
+}
+
+/* fim first section */
+
+
+/* inicio second section */
+
+.second-container {
+  height: 300px;
+}
+
+.certificates-section {
+  width: 45%;
+  float: left;
+}
+
+.hobbies-section {
+  width: 45%;
+  float: right;
+}
+
+.second-container li {
+  width: 75%;
+  float: right;
+}
