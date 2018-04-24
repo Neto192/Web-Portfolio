@@ -1,0 +1,71 @@
+body, #layout {
+/*aqui é só uma configuração básica pra preencher o body e todo o
+resto do layout com o conteúdo à página. A propriedade WIDTH serve
+para alterar a largura da página (body) ou de uma div (#layout) */		
+width: 100%;
+}
+
+#topo { 
+/*aqui eu só alterei a cor do fundo desse "cabeçalho". A cor o prof
+informou na imagem*/
+background-color: #413b3b;
+}
+
+img {
+/*aqui eu só alterei o tamanho da imagem. Width (largura) Height (altura)*/
+width: 80px; 
+height: 80px;
+}
+
+#nomeSite {
+/*o nome do site é aquele lá "exercíciosfáceis.com. Font-size é para alterar o tamanho da fonte,
+color é a cor da fonte e margin-left é só um espaçamento à esquerda para o texto não ficar muito
+colado na imagem*/
+font-size: 28px; 
+color: white; 
+margin-left: 10px;
+}
+
+#logo {
+/*aqui eu tratei da logo, q é a imagem q ele mandou. Border é para criar a borda, e a configuração
+é sempre essa, você coloca o tamanho da borda (7px) o tipo (solid) e a cor (white). O border-radius
+é para deixar a borda arredondada.*/
+border: 7px solid white; 
+border-radius: 4em;
+}
+
+#menu li {
+/*usei essa propriedade para tirar os pontinhos da lista.*/
+list-style: none;
+}
+
+#menu a {
+/*cor dos links da lista*/
+color: #45758f;
+}
+
+#menu a:hover {
+/*aqui foi o que ele exatamente pediu. Quando o usuário passar o mouse pelos links da lista,
+o texto tem que ficar cinza.*/
+color: #ccc;
+}
+
+#conteudo {
+/*isso daqui é só um ajuste no tamanho da tabela e tal. O +"!important" serve pra quando você quiser
+sobrescrever uma propriedade. Lá em cima eu coloquei todo o conteúdo como "width:100%" e agora queria
+a tabela como width:50%, por isso usei o !important. O float é só pra que a tabela flutue à esquerda 
+da página. Se quiser tirar essa propriedade para ver como fica sem ela, fique a vontade.; */
+width: 50% !important; 
+float: left;
+}
+
+table th, .direita {
+/*aqui são as cores de fundo da tabela e da fonte*/
+background-color: #353434; 
+color: white;
+}
+
+.direita { 
+/*por ultimo, só alinhei aquele "total:3" que tem na imagem à direita.*/
+text-align: right;
+}
